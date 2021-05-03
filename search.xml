@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Windows环境下安装虚拟机和CentOS7</title>
+      <link href="vmware-centos-install.html"/>
+      <url>vmware-centos-install.html</url>
+      
+        <content type="html"><![CDATA[<h5 id="VMWare下载"><a href="#VMWare下载" class="headerlink" title="VMWare下载"></a>VMWare下载</h5><ul><li><p>简介： 著名的虚拟机软件。不需要分区或重开机就能在同一台PC上使用两种以上的操作系统，完全隔离并且保护不同OS的操作环境以及所有安装在OS上面的应用软件和资料，不同的OS之间还能互动操作，包括网络、周边、文件分享以及复制贴上功能。试用期30天。系统要求：支持使用 2011 年或之后推出的处理器 (CPU) 的系统，但不包括：基于 2011 年<code>Bonnell</code>微架构的 Intel Atom 处理器（例如，<code>Atom Z670/Z650</code>；<code>Atom N570</code>）；基于 2012 年<code>Saltwell</code>微架构的 Intel Atom 处理器（例如，A<code>tom S1200</code>、<code>Atom D2700/D2500</code>、<code>Atom N2800/N2600</code>）；使用基于<code>Llano</code>和<code>Bobcat</code>微架构的 <code>AMD</code> 处理器（例如，代号<code>Hondo</code>、<code>Ontario</code>、<code>Zacate</code>、<code>Llano</code>）的系统。 </p></li><li><p>下载地址：<a href="href=%22https://dl.softmgr.qq.com/original/System/VMware-workstation-full_16.1.0_17198959.exe%22">VMWare下载</a></p></li><li><p>安装步骤</p></li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503133350.jpg"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503133411.jpg"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503133429.jpg"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503133441.jpg"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503133452.jpg"></p><figure class="highlight properties"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 许可证</span></span><br><span class="line"><span class="attr">ZF3R0-FHED2-M80TY-8QYGC-NPKYF</span></span><br><span class="line"><span class="attr">YF390-0HF8P-M81RQ-2DXQE-M2UT6</span></span><br><span class="line"><span class="attr">ZF71R-DMX85-08DQY-8YMNC-PPHV8</span></span><br></pre></td></tr></table></figure><h5 id="CentOS7下载"><a href="#CentOS7下载" class="headerlink" title="CentOS7下载"></a>CentOS7下载</h5><ul><li><p>使用网易镜像进行下载：<a href="https://mirrors.163.com/centos/7.9.2009/isos/x86_64/">CentOS7下载地址</a>，点击<code>CentOS-7-x86_64-Minimal-2009.iso</code>文件进行下载</p></li><li><p>打开VMWare，点击创建新的虚拟机</p></li><li><p>选择CentOS7的安装目录。点击下一步</p></li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503134747.png"></p><ul><li>这里我重命名了虚拟机名称，改为master，并且在CentOS7系统的安装目录下创建了一个master文件夹，用于保存master系统文件，点击下一步</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503134748.png"></p><ul><li>这里的磁盘大小我分配了20G，后续也可以根据需要进行扩容</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503134749.png"></p><ul><li>到目前为止，虚拟机的配置已经完成，点击完成</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503134750.png"><br><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503134751.png"></p><ul><li><p>等待一段时间，之后就是一些关于系统的配置</p></li><li><p>这里我们选择中文，点击继续</p></li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503140001.png"></p><ul><li>点击日期和时间，配置好本地的日期和时间，点击完成</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503140002.png"></p><ul><li>点击安装目标位置，这里使用默认配置，点击完成</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503140003.png"></p><ul><li>可以看到安装位置的感叹号已经消失了，点击开始安装</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503140004.png"></p><ul><li>之后到了ROOT密码配置的步骤了，我这里因为是学习环境，所以密码比较设置得比较简单<code>123456</code>，正式环境的密码就不能使用简单密码了。点击完成会有提示，再次点击就可以了</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503140005.png"></p><ul><li>到这里系统的配置就算完成了，等待安装完成后重启就可以了。</li></ul><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/itkenor/image/raw/master/img/20210503140006.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 系统安装 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 虚拟机 </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> 系统安装 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>IDEA参考配置</title>
       <link href="idea-config.html"/>
       <url>idea-config.html</url>
@@ -13,7 +42,7 @@
       
       <categories>
           
-          <category> IDE </category>
+          <category> IDE配置 </category>
           
       </categories>
       

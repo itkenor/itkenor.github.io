@@ -1,2 +1,3 @@
+http://www.itkenor.com/vmware-centos-install.html
 http://www.itkenor.com/idea-config.html
 http://www.itkenor.com/hexo-teach.html
